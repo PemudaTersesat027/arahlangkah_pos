@@ -86,7 +86,7 @@ export default function Dashboard({ bridge, business, user, onNavigate }) {
             </header>
 
             {!backendReady && <div className="rounded-lg border border-[#eeddbd] bg-[#fffaf0] px-4 py-3 text-[10px] leading-5 text-[#8a6b39]" role="alert">
-                Backend aplikasi yang sedang berjalan masih versi lama. Tutup NexusPOS, lalu jalankan `build_nexuspos_v2/Debug/QtReactApp.exe` agar dashboard dan transaksi tersambung.
+                Backend ALpos belum tersedia. Tutup aplikasi lalu jalankan kembali ALpos.
             </div>}
             {dataError && <div className="rounded-lg border border-[#eeddbd] bg-[#fffaf0] px-4 py-3 text-[10px] leading-5 text-[#8a6b39]" role="alert">{dataError}</div>}
 

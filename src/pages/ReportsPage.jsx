@@ -46,7 +46,7 @@ export default function ReportsPage({ bridge }) {
             try {
                 const { default: ExcelJS } = await import("exceljs");
                 const workbook = new ExcelJS.Workbook();
-                workbook.creator = "NexusPOS";
+                workbook.creator = "ALpos";
                 workbook.created = new Date();
                 const summaryRows = [
                     ["Periode", `${fromDate} — ${toDate}`],

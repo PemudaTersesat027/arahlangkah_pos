@@ -205,7 +205,7 @@ export default function CheckoutPage({ bridge, cart, user, business, onBack, onC
                         ) : (
                             <label className="mt-5 flex cursor-pointer items-start gap-2.5 rounded-xl bg-[#f8faf7] p-4">
                                 <input type="checkbox" checked={confirmedNonCash} onChange={(event) => { setConfirmedNonCash(event.target.checked); setError(""); }} className="mt-0.5 accent-[#315b49]" />
-                                <span><span className="block text-[10px] font-semibold text-[#506056]">Pembayaran sudah diterima</span><span className="mt-1 block text-[9px] leading-4 text-[#8b968e]">Konfirmasi manual setelah memeriksa pembayaran di aplikasi/perangkat terkait. NexusPOS belum terhubung ke payment gateway.</span></span>
+                                <span><span className="block text-[10px] font-semibold text-[#506056]">Pembayaran sudah diterima</span><span className="mt-1 block text-[9px] leading-4 text-[#8b968e]">Konfirmasi manual setelah memeriksa pembayaran di aplikasi/perangkat terkait. ALpos belum terhubung ke payment gateway.</span></span>
                             </label>
                         )}
                     </CardContent></Card>

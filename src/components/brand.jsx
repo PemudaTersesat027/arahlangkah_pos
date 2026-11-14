@@ -12,7 +12,7 @@ export function BrandLockup() {
     return (
         <div className="flex items-center gap-[11px] text-lg font-bold tracking-[-0.04em] text-[#263a30]">
             <BrandMark />
-            <span>Nexus<span className="font-medium text-[#87928b]">POS</span></span>
+            <span>AL<span className="font-medium text-[#87928b]">pos</span></span>
         </div>
     );
 }

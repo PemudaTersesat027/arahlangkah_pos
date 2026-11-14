@@ -34,7 +34,7 @@ export function AuthLayout({ business, mode, children }) {
                 </div>
                 {children}
                 <footer className="flex justify-between border-t border-[#eff0ed] pt-4 text-[8px] font-bold tracking-[0.12em] text-[#929a94]">
-                    <span className="flex items-center gap-2">NEXUSPOS <i className="h-px w-3 bg-[#d1d8d1]" /> USAHA DALAM GENGGAMAN</span><span>v1.0</span>
+                    <span className="flex items-center gap-2">ALPOS <i className="h-px w-3 bg-[#d1d8d1]" /> USAHA DALAM GENGGAMAN</span><span>v0.1.0</span>
                 </footer>
             </section>
         </main>

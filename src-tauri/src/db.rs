@@ -377,7 +377,7 @@ pub async fn download_image_from_url(image_url: String) -> Result<Value, String>
                 attempt.follow()
             }
         }))
-        .user_agent("NexusPOS/0.1 (product image import)")
+        .user_agent("ALpos/0.1 (product image import)")
         .build()
         .map_err(|error| error.to_string())?
         .get(url)

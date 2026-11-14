@@ -170,7 +170,7 @@ export default function App() {
                 <Card className="w-full max-w-md">
                     <CardContent className="p-9">
                         <BrandMark />
-                        <p className="mt-6 text-[10px] font-bold tracking-[0.17em] text-[#78847c]">NEXUSPOS</p>
+                        <p className="mt-6 text-[10px] font-bold tracking-[0.17em] text-[#78847c]">ALPOS</p>
                         <h1 className="mt-2 font-serif text-3xl font-normal text-[#27342e]">Belum bisa dimulai</h1>
                         <p className="mt-3 text-sm leading-6 text-[#7a847d]">{error}</p>
                     </CardContent>
@@ -268,7 +268,7 @@ export default function App() {
             ) : (
                     <div className="mx-auto my-auto w-full max-w-[410px] py-10">
                         <BusinessAvatar business={business} className="mb-7" />
-                        <FormHeading eyebrow={business?.name || "NEXUSPOS"} title={<>Senang melihat<br />Anda kembali.</>} description="Masuk untuk melanjutkan mengelola usaha." />
+                        <FormHeading eyebrow={business?.name || "ALpos"} title={<>Senang melihat<br />Anda kembali.</>} description="Masuk untuk melanjutkan mengelola usaha." />
                         <form onSubmit={submitLogin} className="mt-8 grid gap-5">
                             <Field id="identifier" label="Username atau ID pengguna" icon={AtSign}>
                                 <Input id="identifier" autoFocus required autoComplete="username" value={identifier} onChange={(e) => { setIdentifier(e.target.value); setError(""); }} placeholder="Masukkan username atau ID" />
